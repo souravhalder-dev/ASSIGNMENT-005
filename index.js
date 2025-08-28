@@ -67,11 +67,12 @@ for (let c of callhistory) {
 
     if (!isNaN(cN)) {
       if (cN > 0) {
+        alert(`📞 Calling to ${subTitle} ${number}...`);
         const less = cN - 20;
         c.innerText = less;
         console.log("Remaining coins:", less);
       } else {
-        alert("No way!");
+        alert("❌ Not available coins, must 20 coins to call");
         return;
       }
     } else {
