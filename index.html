@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Emergency Service Directory</title>
-    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@5"
       rel="stylesheet"
@@ -18,50 +18,75 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-<!-- css -->
-    <link rel="stylesheet" href="style.css">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body class="bg-[#f5fff6]">
     <!-- head -->
-   <nav class="font flex flex-nowrap justify-between items-center max-w-[1920px] h-[100px] mx-auto px-4 sm:px-10 bg-white">
-  <!-- Left Logo Section -->
-  <div id="1" class="flex items-center flex-shrink-0">
-    <img class="w-10 h-10 sm:w-12 sm:h-12" src="./assets/logo.png" alt="Logo" />
-    <h1 class="text-[#006747] font-bold text-base sm:text-xl ml-2 sm:ml-3 leading-tight">
-      Emergency <br />
-      Service
-    </h1>
-  </div>
+    <nav
+      class="font flex flex-nowrap justify-between items-center max-w-[1920px] h-[100px] mx-auto px-4 sm:px-10 bg-white"
+    >
+      <!-- Left Logo Section -->
+      <div id="1" class="flex items-center flex-shrink-0">
+        <img
+          class="w-10 h-10 sm:w-12 sm:h-12"
+          src="./assets/logo.png"
+          alt="Logo"
+        />
+        <h1
+          class="text-[#006747] font-bold text-base sm:text-xl ml-2 sm:ml-3 leading-tight"
+        >
+          Emergency <br />
+          Service
+        </h1>
+      </div>
 
-  <!-- Right Button Section -->
-  <div id="2" class="flex items-center">
-    <!-- Heart Button -->
-    <div class="bg-[#41ff6b1a] w-[90px] sm:w-[123px] h-[42px] sm:h-[52px] flex justify-center items-center rounded-full">
-      <span id="head-heart" class="text-sm sm:text-base font-bold">0</span>
-      <img  class="w-5 h-5 sm:w-[30px] sm:h-[30px] ml-1 sm:ml-2" src="./assets/heart.png" alt="Heart" />
-    </div>
+      <!-- Right Button Section -->
+      <div id="2" class="flex items-center">
+        <!-- Heart Button -->
+        <div
+          class="bg-[#41ff6b1a] w-[90px] sm:w-[123px] h-[42px] sm:h-[52px] flex justify-center items-center rounded-full"
+        >
+          <span id="head-heart" class="text-sm sm:text-base font-bold">0</span>
+          <img
+            class="w-5 h-5 sm:w-[30px] sm:h-[30px] ml-1 sm:ml-2"
+            src="./assets/heart.png"
+            alt="Heart"
+          />
+        </div>
 
-    <!-- Coin Button -->
-    <div class="bg-[#41ff6b1a] ml-2 sm:ml-5 w-[90px] sm:w-[123px] h-[42px] sm:h-[52px] flex justify-center items-center rounded-full">
-      <span id="coin" class="text-sm sm:text-base font-bold">100</span>
-      <img class="w-5 h-5 sm:w-[30px] sm:h-[30px] ml-1 sm:ml-2" src="./assets/coin.png" alt="Coin" />
-    </div>
+        <!-- Coin Button -->
+        <div
+          class="bg-[#41ff6b1a] ml-2 sm:ml-5 w-[90px] sm:w-[123px] h-[42px] sm:h-[52px] flex justify-center items-center rounded-full"
+        >
+          <span id="coin" class="text-sm sm:text-base font-bold">100</span>
+          <img
+            class="w-5 h-5 sm:w-[30px] sm:h-[30px] ml-1 sm:ml-2"
+            src="./assets/coin.png"
+            alt="Coin"
+          />
+        </div>
 
-    <!-- Copy Button -->
-    <div class="bg-[#00a63e] ml-2 sm:ml-5 w-[90px] sm:w-[123px] h-[42px] sm:h-[52px] flex justify-center items-center rounded-full">
-      <span id="cop"  class="text-sm sm:text-base font-bold">0</span>
-      <p class="ml-1 sm:ml-2 text-sm sm:text-base">Copy</p>
-    </div>
-  </div>
-</nav>
+        <!-- Copy Button -->
+        <div
+          class="bg-[#00a63e] ml-2 sm:ml-5 w-[90px] sm:w-[123px] h-[42px] sm:h-[52px] flex justify-center items-center rounded-full"
+        >
+          <span id="cop" class="text-sm sm:text-base font-bold">0</span>
+          <p class="ml-1 sm:ml-2 text-sm sm:text-base">Copy</p>
+        </div>
+      </div>
+    </nav>
 
     <!--hed-2  -->
- <section
-      class="font text-center h-[239px] max-w-[1920px] mx-auto bg-gradient-to-r from-[rgba(1,49,35,1)] via-[rgba(0,103,71,1)] to-[rgba(1,50,35,1)]"
+    <section
+      class="font text-center sm:h-[350px] md:h-[239px] max-w-[1920px] mx-auto bg-gradient-to-r from-[rgba(1,49,35,1)] via-[rgba(0,103,71,1)] to-[rgba(1,50,35,1)]"
     >
       <div class="pt-[30px] sm:px-0">
         <img
@@ -79,25 +104,25 @@
       </div>
     </section>
 
-
-
-
     <!--  -->
-    <section class="font flex  gap-[30px] mt-[48px] max-w-[1800px] pb-20 mx-auto  bg-[#f5fff6]">
-        <div class="grid gap-[30px] md:grid-cols-3  max-w-[1370px]">
-  <!-- all card -->
-<!-- c-1 -->
-     <div class="card shadow-sm
- max-w-[436.67px] w-full  h-[360px] py-8 px-8  bg-white  rounded-xl ">
-            
-          
-          <div class="flex justify-between items-center  ">
+    <section
+      class="font flex gap-[30px] mt-[48px] max-w-[1800px] sm:w-full pb-20 mx-auto bg-[#f5fff6] flex-wrap lg:flex-nowrap"
+    >
+      <div
+        class="grid gap-9 grid-cols-1 sm:ml-[30px] sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 mx-auto"
+      >
+        <!-- all card -->
+        <!-- c-1 -->
+        <div
+          class="card shadow-sm sm:w-[450px] max-w-[436.67px] w-full h-[360px] py-8 px-8 bg-white rounded-xl"
+        >
+          <div class="flex justify-between items-center">
             <img
               class="w-[60px] h-[60px] p-[14px] bg-[#ffe3e2] rounded-2xl"
               src="./assets/emergency.png"
               alt=""
             />
-            <button  class="btn-square heart-card">
+            <button class="btn-square heart-card">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -117,34 +142,34 @@
           <div>
             <h1 class="font-bold text-2xl mt-4">National Emergency Number</h1>
             <h6 class="text-lg text-gray-500">National Emergency</h6>
-            <p  class="cpy  font-bold mt-6 text-4xl mb-2">999</p>
+            <p class="cpy font-bold mt-6 text-4xl mb-2">999</p>
             <button class="btn rounded-xl btn-sm mb-6">All</button>
           </div>
 
           <div class="flex gap-3">
-            <button  class="cp btn h-10 w-[160px] shadow rounded-lg block">
+            <button class="cp btn h-10 w-[160px] shadow rounded-lg block">
               <i class="fa-regular fa-copy"></i> Copy
             </button>
 
-            <button id="call"
+            <button
+              id="call"
               class="btn h-10 w-[160px] shadow rounded-lg bg-[#00a63e] block text-white"
             >
               <i class="fa-solid fa-phone"></i> Call
             </button>
           </div>
         </div>
- <!-- c-2 -->
-     <div class="card shadow-sm
- max-w-[436.67px] w-full  h-[360px]  py-8 px-8  bg-white  rounded-xl ">
-            
-          
+        <!-- 2 -->
+        <div
+          class="card shadow-sm max-w-[436.67px] w-full h-[360px] py-8 px-8 bg-white rounded-xl"
+        >
           <div class="flex justify-between items-center">
-          <div class="w-[60px] h-[60px] rounded-2xl bg-[#dfefff] ">  <img
-              class="w-[60px] h-[60px] p-[14px]"
+            <img
+              class="w-[60px] h-[60px] p-[14px] bg-[#dfefff] rounded-2xl"
               src="./assets/police.png"
               alt=""
-            /></div>
-            <button class="btn-square w-6 h-6 heart-card">
+            />
+            <button class="btn-square heart-card">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -163,36 +188,36 @@
           </div>
           <div>
             <h1 class="font-bold text-2xl mt-4">Police Helpline Number</h1>
-            <h6 class="text-lg text-gray-500">Police </h6>
-            <p  class="cpy  font-bold mt-6 text-4xl mb-2">999</p>
-            <button class="btn rounded-xl  mb-6">Police</button>
+            <h6 class="text-lg text-gray-500">Police</h6>
+            <p class="cpy font-bold mt-6 text-4xl mb-2">999</p>
+            <button class="btn rounded-xl btn-sm mb-6">Police</button>
           </div>
 
           <div class="flex gap-3">
-            <button class="cp h-10 btn  w-[160px]  shadow rounded-lg block">
+            <button class="cp btn h-10 w-[160px] shadow rounded-lg block">
               <i class="fa-regular fa-copy"></i> Copy
             </button>
 
             <button
-              class=" btn  w-[160px]  h-10  shadow rounded-lg bg-[#00a63e] block text-white"
+              id="call"
+              class="btn h-10 w-[160px] shadow rounded-lg bg-[#00a63e] block text-white"
             >
               <i class="fa-solid fa-phone"></i> Call
             </button>
           </div>
         </div>
-        
-<!-- c-3 -->
-  <div class="card shadow-sm
- max-w-[436.67px] w-full  h-[360px] p-3  bg-white  rounded-xl ">
-            
-          
+
+        <!-- 3 -->
+        <div
+          class="card shadow-sm max-w-[436.67px] w-full h-[360px] py-8 px-8 bg-white rounded-xl"
+        >
           <div class="flex justify-between items-center">
-          <div class="w-[60px] h-[60px] rounded-2xl bg-[#ffe3e2] ">  <img
-              class="w-[60px] h-[60px] p-[14px]"
+            <img
+              class="w-[60px] h-[60px] p-[14px] bg-[#ffe3e2] rounded-2xl"
               src="./assets/fire-service.png"
               alt=""
-            /></div>
-            <button class="btn-square w-6 h-6 heart-card">
+            />
+            <button class="btn-square heart-card">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -211,35 +236,37 @@
           </div>
           <div>
             <h1 class="font-bold text-2xl mt-4">Fire Service Number</h1>
-            <h6 class="text-lg text-gray-500">Fire Service </h6>
+            <h6 class="text-lg text-gray-500">Fire Service</h6>
             <p class="cpy font-bold mt-6 text-4xl mb-2">999</p>
-            <button class="btn rounded-xl  mb-6">Fire</button>
+            <button class="btn rounded-xl btn-sm mb-6">Fire</button>
           </div>
 
-          <div class="flex gap-3 ">
-            <button class="h-10  cp btn  w-[160px] shadow rounded-lg block">
+          <div class="flex gap-3">
+            <button class="cp btn h-10 w-[160px] shadow rounded-lg block">
               <i class="fa-regular fa-copy"></i> Copy
             </button>
 
             <button
-              class="h-10  btn  w-[160px]  shadow rounded-lg bg-[#00a63e] block text-white"
+              id="call"
+              class="btn h-10 w-[160px] shadow rounded-lg bg-[#00a63e] block text-white"
             >
               <i class="fa-solid fa-phone"></i> Call
             </button>
           </div>
         </div>
- <!-- c-4 -->
-  <div class="card shadow-sm
- max-w-[436.67px] w-full  h-[360px] p-3  bg-white  rounded-xl ">
-            
-          
+
+        <!-- 4 -->
+
+        <div
+          class="card shadow-sm max-w-[436.67px] w-full h-[360px] py-8 px-8 bg-white rounded-xl"
+        >
           <div class="flex justify-between items-center">
-          <div class="w-[60px] h-[60px] rounded-2xl bg-[#ffe3e2] ">  <img
-              class="w-[60px] h-[60px] p-[14px]"
+            <img
+              class="w-[60px] h-[60px] p-[14px] bg-[#ffe3e2] rounded-2xl"
               src="./assets/ambulance.png"
               alt=""
-            /></div>
-            <button class="btn-square w-6 h-6 heart-card">
+            />
+            <button class="btn-square heart-card">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -258,36 +285,37 @@
           </div>
           <div>
             <h1 class="font-bold text-2xl mt-4">Ambulance Service</h1>
-            <h6 class="text-lg text-gray-500">Ambulance </h6>
-            <p class="c font-bold mt-6 text-4xl mb-2"><span class="cpy">1994-999999</span>
-</p>
-            <button class="btn rounded-xl  mb-6">Health</button>
+            <h6 class="text-lg text-gray-500">Ambulance</h6>
+            <p class="cpy font-bold mt-6 text-4xl mb-2">1994-999999</p>
+            <button class="btn rounded-xl btn-sm mb-6">Health</button>
           </div>
 
-          <div class=" flex gap-3">
-            <button class="h-10 btn cp w-[160px]  shadow rounded-lg block">
-              <i class="  fa-regular fa-copy"></i> Copy
+          <div class="flex gap-3">
+            <button class="cp btn h-10 w-[160px] shadow rounded-lg block">
+              <i class="fa-regular fa-copy"></i> Copy
             </button>
 
             <button
-              class="h-10  btn  w-[160px]  shadow rounded-lg bg-[#00a63e] block text-white"
+              id="call"
+              class="btn h-10 w-[160px] shadow rounded-lg bg-[#00a63e] block text-white"
             >
               <i class="fa-solid fa-phone"></i> Call
             </button>
           </div>
         </div>
-  <!-- c-5 -->
-     <div class="card shadow-sm
- max-w-[436.67px] w-full  h-[360px] p-3  bg-white  rounded-xl ">
-            
-          
+
+        <!-- 5 -->
+
+        <div
+          class="card shadow-sm max-w-[436.67px] w-full h-[360px] py-8 px-8 bg-white rounded-xl"
+        >
           <div class="flex justify-between items-center">
-          <div class="w-[60px] h-[60px] rounded-2xl bg-[#ffe3e2] ">  <img
-              class="w-[60px] h-[60px] p-[14px]"
+            <img
+              class="w-[60px] h-[60px] p-[14px] bg-[#ffe3e2] rounded-2xl"
               src="./assets/emergency.png"
               alt=""
-            /></div>
-            <button class="btn-square w-6 h-6 heart-card">
+            />
+            <button class="btn-square heart-card">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -307,34 +335,35 @@
           <div>
             <h1 class="font-bold text-2xl mt-4">Women & Child Helpline</h1>
             <h6 class="text-lg text-gray-500">Women & Child Helpline</h6>
-            <p class=" cpy font-bold mt-6 text-4xl mb-2">109</p>
-            <button class="btn rounded-xl  mb-6">Help</button>
+            <p class="cpy font-bold mt-6 text-4xl mb-2">109</p>
+            <button class="btn rounded-xl btn-sm mb-6">Help</button>
           </div>
 
           <div class="flex gap-3">
-            <button class="h-10 btn cp w-[160px]  shadow rounded-lg block">
+            <button class="cp btn h-10 w-[160px] shadow rounded-lg block">
               <i class="fa-regular fa-copy"></i> Copy
             </button>
 
             <button
-              class="h-10  btn  w-[160px]  shadow rounded-lg bg-[#00a63e] block text-white"
+              id="call"
+              class="btn h-10 w-[160px] shadow rounded-lg bg-[#00a63e] block text-white"
             >
               <i class="fa-solid fa-phone"></i> Call
             </button>
           </div>
         </div>
-   <!-- c-6 -->
-     <div class="card shadow-sm
- max-w-[436.67px] w-full  h-[360px] p-3  bg-white  rounded-xl ">
-            
-          
+
+        <!-- 6 -->
+        <div
+          class="card shadow-sm max-w-[436.67px] w-full h-[360px] py-8 px-8 bg-white rounded-xl"
+        >
           <div class="flex justify-between items-center">
-          <div class="w-[60px] h-[60px] rounded-2xl bg-[#ffe3e2] ">  <img
-              class="w-[60px] h-[60px] p-[14px]"
+            <img
+              class="w-[60px] h-[60px] p-[14px] bg-[#ffe3e2] rounded-2xl"
               src="./assets/emergency.png"
               alt=""
-            /></div>
-            <button class="btn-square w-6 h-6 heart-card">
+            />
+            <button class="btn-square heart-card">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -354,34 +383,35 @@
           <div>
             <h1 class="font-bold text-2xl mt-4">Anti-Corruption Helpline</h1>
             <h6 class="text-lg text-gray-500">Anti-Corruption</h6>
-            <p class="font-bold cpy mt-6 text-4xl mb-2">106</p>
-            <button class="btn rounded-xl  mb-6">Govt.</button>
+            <p class="cpy font-bold mt-6 text-4xl mb-2">106</p>
+            <button class="btn rounded-xl btn-sm mb-6">Govt.</button>
           </div>
 
           <div class="flex gap-3">
-            <button class="h-10 btn cp w-[160px]  shadow rounded-lg block">
+            <button class="cp btn h-10 w-[160px] shadow rounded-lg block">
               <i class="fa-regular fa-copy"></i> Copy
             </button>
 
             <button
-              class="h-10  btn  w-[160px]  shadow rounded-lg bg-[#00a63e] block text-white"
+              id="call"
+              class="btn h-10 w-[160px] shadow rounded-lg bg-[#00a63e] block text-white"
             >
               <i class="fa-solid fa-phone"></i> Call
             </button>
           </div>
         </div>
-    <!-- c-7 -->
-      <div class="card shadow-sm
- max-w-[436.67px] w-full  h-[360px] p-3  bg-white  rounded-xl ">
-            
-          
+
+        <!-- 7 -->
+        <div
+          class="card shadow-sm max-w-[436.67px] w-full h-[360px] py-8 px-8 bg-white rounded-xl"
+        >
           <div class="flex justify-between items-center">
-          <div class="w-[60px] h-[60px] rounded-2xl bg-[#ffe3e2] ">  <img
-              class="w-[60px] h-[60px] p-[14px]"
+            <img
+              class="w-[60px] h-[60px] p-[14px] bg-[#ffe3e2] rounded-2xl"
               src="./assets/emergency.png"
               alt=""
-            /></div>
-            <button class="btn-square w-6 h-6 heart-card">
+            />
+            <button class="btn-square heart-card">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -401,34 +431,34 @@
           <div>
             <h1 class="font-bold text-2xl mt-4">Electricity Helpline</h1>
             <h6 class="text-lg text-gray-500">Electricity Outage</h6>
-            <p class="font-bold mt-6 text-4xl mb-2 cpy">16216</p>
-            <button class="btn rounded-xl  mb-6">Electricity</button>
+            <p class="cpy font-bold mt-6 text-4xl mb-2">16216</p>
+            <button class="btn rounded-xl btn-sm mb-6">Govt.</button>
           </div>
 
           <div class="flex gap-3">
-            <button class="h-10 btn cp w-[160px]  shadow rounded-lg block">
+            <button class="cp btn h-10 w-[160px] shadow rounded-lg block">
               <i class="fa-regular fa-copy"></i> Copy
             </button>
 
             <button
-              class="h-10  btn  w-[160px]  shadow rounded-lg bg-[#00a63e] block text-white"
+              id="call"
+              class="btn h-10 w-[160px] shadow rounded-lg bg-[#00a63e] block text-white"
             >
               <i class="fa-solid fa-phone"></i> Call
             </button>
           </div>
         </div>
-     <!-- c-8 -->
-      <div class="card shadow-sm
- max-w-[436.67px] w-full  h-[360px] p-3  bg-white  rounded-xl ">
-            
-          
+        <!-- 8 -->
+        <div
+          class="card shadow-sm max-w-[436.67px] w-full h-[360px] py-8 px-8 bg-white rounded-xl"
+        >
           <div class="flex justify-between items-center">
-          <div class="w-[60px] h-[60px] rounded-2xl bg-[#ffe3e2] ">  <img
-              class="w-[60px] h-[60px] p-[14px]"
+            <img
+              class="w-[60px] h-[60px] p-[14px] bg-[#ffe3e2] rounded-2xl"
               src="./assets/emergency.png"
               alt=""
-            /></div>
-            <button class="btn-square w-6 h-6 heart-card">
+            />
+            <button class="btn-square heart-card">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -448,34 +478,35 @@
           <div>
             <h1 class="font-bold text-2xl mt-4">Brac Helpline</h1>
             <h6 class="text-lg text-gray-500">Brac</h6>
-            <p class="font-bold mt-6 text-4xl mb-2 cpy">16445</p>
-            <button class="btn rounded-xl  mb-6">NGO</button>
+            <p class="cpy font-bold mt-6 text-4xl mb-2">16445</p>
+            <button class="btn rounded-xl btn-sm mb-6">NGO</button>
           </div>
 
           <div class="flex gap-3">
-            <button class="h-10 btn  cp w-[160px]  shadow rounded-lg block">
-              <i class="fa-regular fa-copy "></i> Copy
+            <button class="cp btn h-10 w-[160px] shadow rounded-lg block">
+              <i class="fa-regular fa-copy"></i> Copy
             </button>
 
             <button
-              class="h-10  btn  w-[160px]  shadow rounded-lg bg-[#00a63e] block text-white"
+              id="call"
+              class="btn h-10 w-[160px] shadow rounded-lg bg-[#00a63e] block text-white"
             >
               <i class="fa-solid fa-phone"></i> Call
             </button>
           </div>
         </div>
-      <!-- c-9 -->
- <div class="card shadow-sm
- max-w-[436.67px] w-full  h-[360px] p-3  bg-white  rounded-xl ">
-            
-          
+
+        <!-- 9 -->
+        <div
+          class="card shadow-sm max-w-[436.67px] w-full h-[360px] py-8 px-8 bg-white rounded-xl"
+        >
           <div class="flex justify-between items-center">
-          <div class="w-[60px] h-[60px] rounded-2xl bg-[#ffe3e2] ">  <img
-              class="w-[60px] h-[60px] p-[14px]"
+            <img
+              class="w-[60px] h-[60px] p-[14px] bg-[#ffe3e2] rounded-2xl"
               src="./assets/emergency.png"
               alt=""
-            /></div>
-            <button class="btn-square w-6 h-6 heart-card">
+            />
+            <button class="btn-square heart-card">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -493,50 +524,50 @@
             </button>
           </div>
           <div>
-            <h1 class="font-bold text-2xl mt-4">Bangladesh Railway Helpline </h1>
+            <h1 class="font-bold text-2xl mt-4">Bangladesh Railway Helpline</h1>
             <h6 class="text-lg text-gray-500">Bangladesh Railway</h6>
-            <p class="font-bold mt-6 text-4xl mb-2b cpy">163</p>
-            <button class="btn rounded-xl  mb-6">Travel</button>
+            <p class="cpy font-bold mt-6 text-4xl mb-2">163</p>
+            <button class="btn rounded-xl btn-sm mb-6">Travel</button>
           </div>
 
           <div class="flex gap-3">
-            <button class="h-10 btn  cp w-[160px]  shadow rounded-lg block">
+            <button class="cp btn h-10 w-[160px] shadow rounded-lg block">
               <i class="fa-regular fa-copy"></i> Copy
             </button>
 
             <button
-              class="h-10  btn  w-[160px]  shadow rounded-lg bg-[#00a63e] block text-white"
+              id="call"
+              class="btn h-10 w-[160px] shadow rounded-lg bg-[#00a63e] block text-white"
             >
               <i class="fa-solid fa-phone"></i> Call
             </button>
           </div>
         </div>
+      </div>
 
-
-
-   
-
-
- 
-
-</div>
-
-
+      <!-- Side Card (Call History) - No change required unless you want it responsive too -->
       <div
-        class="shadow-sm h-[1140px] max-w-[400px] bg-white rounded-[12px] card p-6"
+        class="shadow-sm h-[1140px] max-w-[400px] bg-white rounded-[12px] card p-6 mx-auto"
       >
-    <div class="w-[352px] h-[52px] justify-between mx-auto flex items-center mt-[24px]">
-         <div class="w-[352px] h-[52px] justify-between mx-auto flex items-center mt-[24px]">
-                    <h3 class="roboto text-[20px] font-medium"><span class="mr-[2px]"><i class="fa-solid fa-clock-rotate-left"></i></span>Call History</h3>
-                    <button class="btn w-[114px] font-semibold text-white h-[100%] rounded-[50px] bg-[#00A63E]">Clear</button>
-                </div>
-    </div>
+        <div
+          class="w-[352px] h-[52px] justify-between mx-auto flex items-center mt-[24px]"
+        >
+          <h3 class="roboto text-[20px] font-medium">
+            <span class="mr-[2px]"
+              ><i class="fa-solid fa-clock-rotate-left"></i></span
+            >Call History
+          </h3>
+          <button
+            class="btn w-[114px] font-semibold text-white h-[100%] rounded-[50px] bg-[#00A63E]"
+          >
+            Clear
+          </button>
+        </div>
+      </div>
     </section>
-
     <!--  -->
 
-
     <!-- js -->
-     <script src="./index.js"></script>
+    <script src="./index.js"></script>
   </body>
 </html>
