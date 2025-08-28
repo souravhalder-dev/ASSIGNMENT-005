@@ -47,13 +47,13 @@
 
     <!-- Coin Button -->
     <div class="bg-[#41ff6b1a] ml-2 sm:ml-5 w-[90px] sm:w-[123px] h-[42px] sm:h-[52px] flex justify-center items-center rounded-full">
-      <span class="text-sm sm:text-base font-bold">100</span>
+      <span id="coin" class="text-sm sm:text-base font-bold">100</span>
       <img class="w-5 h-5 sm:w-[30px] sm:h-[30px] ml-1 sm:ml-2" src="./assets/coin.png" alt="Coin" />
     </div>
 
     <!-- Copy Button -->
     <div class="bg-[#00a63e] ml-2 sm:ml-5 w-[90px] sm:w-[123px] h-[42px] sm:h-[52px] flex justify-center items-center rounded-full">
-      <span class="text-sm sm:text-base font-bold">0</span>
+      <span id="cop"  class="text-sm sm:text-base font-bold">0</span>
       <p class="ml-1 sm:ml-2 text-sm sm:text-base">Copy</p>
     </div>
   </div>
@@ -84,11 +84,11 @@
 
     <!--  -->
     <section class="font flex  gap-[30px] mt-[48px] max-w-[1800px] pb-20 mx-auto  bg-[#f5fff6]">
-        <div class="grid gap-[30px] md:grid-cols-3  w-[1370px]">
+        <div class="grid gap-[30px] md:grid-cols-3  max-w-[1370px]">
   <!-- all card -->
 <!-- c-1 -->
      <div class="card shadow-sm
- max-w-[436.67px] w-full  h-[360px] p-3  bg-white  rounded-xl ">
+ max-w-[436.67px] w-full  h-[360px] py-8 px-8  bg-white  rounded-xl ">
             
           
           <div class="flex justify-between items-center  ">
@@ -117,16 +117,16 @@
           <div>
             <h1 class="font-bold text-2xl mt-4">National Emergency Number</h1>
             <h6 class="text-lg text-gray-500">National Emergency</h6>
-            <p class="font-bold mt-6 text-4xl mb-2">999</p>
+            <p  class="cpy  font-bold mt-6 text-4xl mb-2">999</p>
             <button class="btn rounded-xl btn-sm mb-6">All</button>
           </div>
 
           <div class="flex gap-3">
-            <button class="btn h-10 w-[160px] shadow rounded-lg block">
+            <button  class="cp btn h-10 w-[160px] shadow rounded-lg block">
               <i class="fa-regular fa-copy"></i> Copy
             </button>
 
-            <button
+            <button id="call"
               class="btn h-10 w-[160px] shadow rounded-lg bg-[#00a63e] block text-white"
             >
               <i class="fa-solid fa-phone"></i> Call
@@ -135,7 +135,7 @@
         </div>
  <!-- c-2 -->
      <div class="card shadow-sm
- max-w-[436.67px] w-full  h-[360px] p-3  bg-white  rounded-xl ">
+ max-w-[436.67px] w-full  h-[360px]  py-8 px-8  bg-white  rounded-xl ">
             
           
           <div class="flex justify-between items-center">
@@ -164,12 +164,12 @@
           <div>
             <h1 class="font-bold text-2xl mt-4">Police Helpline Number</h1>
             <h6 class="text-lg text-gray-500">Police </h6>
-            <p class="font-bold mt-6 text-4xl mb-2">999</p>
+            <p  class="cpy  font-bold mt-6 text-4xl mb-2">999</p>
             <button class="btn rounded-xl  mb-6">Police</button>
           </div>
 
           <div class="flex gap-3">
-            <button class="h-10 btn  w-[160px]  shadow rounded-lg block">
+            <button class="cp h-10 btn  w-[160px]  shadow rounded-lg block">
               <i class="fa-regular fa-copy"></i> Copy
             </button>
 
@@ -212,12 +212,12 @@
           <div>
             <h1 class="font-bold text-2xl mt-4">Fire Service Number</h1>
             <h6 class="text-lg text-gray-500">Fire Service </h6>
-            <p class="font-bold mt-6 text-4xl mb-2">999</p>
+            <p class="cpy font-bold mt-6 text-4xl mb-2">999</p>
             <button class="btn rounded-xl  mb-6">Fire</button>
           </div>
 
-          <div class="flex gap-3">
-            <button class="h-10  btn  w-[160px] shadow rounded-lg block">
+          <div class="flex gap-3 ">
+            <button class="h-10  cp btn  w-[160px] shadow rounded-lg block">
               <i class="fa-regular fa-copy"></i> Copy
             </button>
 
@@ -259,13 +259,14 @@
           <div>
             <h1 class="font-bold text-2xl mt-4">Ambulance Service</h1>
             <h6 class="text-lg text-gray-500">Ambulance </h6>
-            <p class="font-bold mt-6 text-4xl mb-2">1994-999999</p>
+            <p class="c font-bold mt-6 text-4xl mb-2"><span class="cpy">1994-999999</span>
+</p>
             <button class="btn rounded-xl  mb-6">Health</button>
           </div>
 
-          <div class="flex gap-3">
-            <button class="h-10 btn  w-[160px]  shadow rounded-lg block">
-              <i class="fa-regular fa-copy"></i> Copy
+          <div class=" flex gap-3">
+            <button class="h-10 btn cp w-[160px]  shadow rounded-lg block">
+              <i class="  fa-regular fa-copy"></i> Copy
             </button>
 
             <button
@@ -306,12 +307,12 @@
           <div>
             <h1 class="font-bold text-2xl mt-4">Women & Child Helpline</h1>
             <h6 class="text-lg text-gray-500">Women & Child Helpline</h6>
-            <p class="font-bold mt-6 text-4xl mb-2">109</p>
+            <p class=" cpy font-bold mt-6 text-4xl mb-2">109</p>
             <button class="btn rounded-xl  mb-6">Help</button>
           </div>
 
           <div class="flex gap-3">
-            <button class="h-10 btn  w-[160px]  shadow rounded-lg block">
+            <button class="h-10 btn cp w-[160px]  shadow rounded-lg block">
               <i class="fa-regular fa-copy"></i> Copy
             </button>
 
@@ -353,12 +354,12 @@
           <div>
             <h1 class="font-bold text-2xl mt-4">Anti-Corruption Helpline</h1>
             <h6 class="text-lg text-gray-500">Anti-Corruption</h6>
-            <p class="font-bold mt-6 text-4xl mb-2">106</p>
+            <p class="font-bold cpy mt-6 text-4xl mb-2">106</p>
             <button class="btn rounded-xl  mb-6">Govt.</button>
           </div>
 
           <div class="flex gap-3">
-            <button class="h-10 btn  w-[160px]  shadow rounded-lg block">
+            <button class="h-10 btn cp w-[160px]  shadow rounded-lg block">
               <i class="fa-regular fa-copy"></i> Copy
             </button>
 
@@ -400,12 +401,12 @@
           <div>
             <h1 class="font-bold text-2xl mt-4">Electricity Helpline</h1>
             <h6 class="text-lg text-gray-500">Electricity Outage</h6>
-            <p class="font-bold mt-6 text-4xl mb-2">16216</p>
+            <p class="font-bold mt-6 text-4xl mb-2 cpy">16216</p>
             <button class="btn rounded-xl  mb-6">Electricity</button>
           </div>
 
           <div class="flex gap-3">
-            <button class="h-10 btn  w-[160px]  shadow rounded-lg block">
+            <button class="h-10 btn cp w-[160px]  shadow rounded-lg block">
               <i class="fa-regular fa-copy"></i> Copy
             </button>
 
@@ -447,13 +448,13 @@
           <div>
             <h1 class="font-bold text-2xl mt-4">Brac Helpline</h1>
             <h6 class="text-lg text-gray-500">Brac</h6>
-            <p class="font-bold mt-6 text-4xl mb-2">16445</p>
+            <p class="font-bold mt-6 text-4xl mb-2 cpy">16445</p>
             <button class="btn rounded-xl  mb-6">NGO</button>
           </div>
 
           <div class="flex gap-3">
-            <button class="h-10 btn  w-[160px]  shadow rounded-lg block">
-              <i class="fa-regular fa-copy"></i> Copy
+            <button class="h-10 btn  cp w-[160px]  shadow rounded-lg block">
+              <i class="fa-regular fa-copy "></i> Copy
             </button>
 
             <button
@@ -494,12 +495,12 @@
           <div>
             <h1 class="font-bold text-2xl mt-4">Bangladesh Railway Helpline </h1>
             <h6 class="text-lg text-gray-500">Bangladesh Railway</h6>
-            <p class="font-bold mt-6 text-4xl mb-2">163</p>
+            <p class="font-bold mt-6 text-4xl mb-2b cpy">163</p>
             <button class="btn rounded-xl  mb-6">Travel</button>
           </div>
 
           <div class="flex gap-3">
-            <button class="h-10 btn  w-[160px]  shadow rounded-lg block">
+            <button class="h-10 btn  cp w-[160px]  shadow rounded-lg block">
               <i class="fa-regular fa-copy"></i> Copy
             </button>
 
