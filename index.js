@@ -46,10 +46,58 @@ copyButtons.forEach((btn) => {
 });
 
 // 3
-document.getElementById("call").addEventListener("click", function () {
-  const c = document.getElementById("coin");
-  const cN = parseInt(c.innerText);
-  if (cN < 20) {
-    console.log("❌ Not available coins, must 20 coins to call");
-  }
-});
+const callhistory = document.getElementsByClassName("call");
+
+for (let c of callhistory) {
+  c.addEventListener("click", function (e) {
+    const clickedButton = e.currentTarget;
+    const card = clickedButton.closest(".card");
+    const cpyElement = card.querySelector(".cpy");
+
+    const number = cpyElement.innerText;
+
+    const clickedButtons = e.currentTarget;
+    const cards = clickedButtons.closest(".card");
+    const subTitles = cards.querySelector(".tx");
+
+    const subTitle = subTitles.innerText;
+
+    const c = document.getElementById("coin");
+    const cN = parseInt(c.innerText);
+
+    if (!isNaN(cN)) {
+      if (cN > 0) {
+        const less = cN - 20;
+        c.innerText = less;
+        console.log("Remaining coins:", less);
+      } else {
+        alert("No way!");
+        return;
+      }
+    } else {
+      console.error("The value in #coin is not a valid number.");
+      return;
+    }
+
+    const historyContainer = document.getElementById("history-container");
+    const history = document.createElement("div");
+    const time = new Date().toLocaleTimeString();
+
+    history.innerHTML = `
+      <div class="flex items-center justify-between bg-gray-100 p-4 rounded-xl mt-5">
+        <div>
+          <h3 class="font-semibold">${subTitle}</h3>
+          <p class="text-xl">${number}</p>
+        </div>
+        <p>${time}</p>
+      </div>
+    `;
+
+    historyContainer.prepend(history);
+
+    const clearBtn = document.getElementById("clear");
+    clearBtn.onclick = function () {
+      historyContainer.innerText = "";
+    };
+  });
+}
