@@ -55,13 +55,15 @@ for (let c of callhistory) {
     const cpyElement = card.querySelector(".cpy");
 
     const number = cpyElement.innerText;
+    console.log(number);
 
+    //
     const clickedButtons = e.currentTarget;
     const cards = clickedButtons.closest(".card");
     const subTitles = cards.querySelector(".tx");
 
     const subTitle = subTitles.innerText;
-
+    console.log(subTitle);
     const c = document.getElementById("coin");
     const cN = parseInt(c.innerText);
 
