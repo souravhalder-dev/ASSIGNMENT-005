@@ -4,3 +4,18 @@
 
   font-style: normal;
 }
+@media (min-width: 1800px) {
+  .containner {
+    grid-template-columns: repeat(3, 436px) !important;
+    grid-template-rows: repeat(3, 360px) !important;
+    gap: 30px !important;
+  }
+  .card {
+    width: 436.67px !important;
+    height: 360px !important;
+  }
+  .call_history {
+    width: 590px !important;
+    height: 1140px !important;
+  }
+}
